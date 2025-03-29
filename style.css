@@ -185,5 +185,10 @@ input {
     h5{
         font-size: 18px!important;
     }
+     input {
+    
+        width: 150px;
+
+  }
 
   }
