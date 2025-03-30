@@ -121,14 +121,15 @@
                     this.state = {
                        name: "",
                        front: true,
-                       list: ["alma", "zanu", "hisyam", "rais", "api", "nuy", "arya", "maryam", "rula", "haru", "alin", "tri", "fachrul", "aqna", "kheisla"]
+                       list: ["alma", "zanu", "hisyam", "rais", "api", "nuy", "arya", "maryam", "rula", "haru", "alin", 
+                              "tri", "fachrul", "aqna", "kheisla", "asa", "ami", "iman"]
                         
                     }
                 }
 
                 nameInput = (event) => {
                     this.setState({
-                        name: event.target.value.toLowerCase()
+                        name: event.target.value.toLowerCase().trim()
                     })
 
                 }
